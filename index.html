@@ -10,27 +10,27 @@
     <title>Color Tiles</title>
 </head>
 <body>
-    <h1>Lets Play</h1>
-    <h3>Click this button to start or restart</h3>
+   <header><h1>Lets Play!</h1></header> 
+    <h3>Click this button to start</h3>
     <button class="rst">GAME</button>
     <div>
         <p>Match the tiles to what you see below</p>
     </div>
     <table class='fixed'>
         <tr> <!-- Row 1-->
-            <td class="blah"> hi<!--Cell 1--> </td>
-            <td class="blah"> hi<!--Cell 1--> </td>
-            <td class="blah"> hi<!--Cell 1--> </td>
+            <td id="blah00"> <!--Cell 1--> </td>
+            <td id="blah01"> <!--Cell 1--> </td>
+            <td id="blah02"> <!--Cell 1--> </td>
         </tr>
         <tr> <!-- Row 2-->
-            <td class="blah"> hi<!--Cell 1--> </td>
-            <td class="blah"> hi<!--Cell 1--> </td>
-            <td class="blah"> hi<!--Cell 1--> </td>
+            <td id="blah10"> <!--Cell 1--> </td>
+            <td id="blah11"> <!--Cell 1--> </td>
+            <td id="blah12"> <!--Cell 1--> </td>
         </tr>
         <tr> <!-- Row 3-->
-            <td class="blah"> hi<!--Cell 1--> </td>
-            <td class="blah"> hi<!--Cell 1--> </td>
-            <td class="blah"> hi<!--Cell 1--> </td>
+            <td id="blah20"> <!--Cell 1--> </td>
+            <td id="blah21"> <!--Cell 1--> </td>
+            <td id="blah22"> <!--Cell 1--> </td>
         </tr>
     </table> 
     <hr>
@@ -38,43 +38,46 @@
     <div class="game"> <h2>Play here</h2>
     <table class="play">
         <tr id="row"> <!-- Row 1-->
-            <td class="main"> 1<!--Cell 1--> </td>
-            <td class="main"> 2<!--Cell 2--> </td>
-            <td class="main"> 3<!--Cell 3--> </td>
-            <td class="main"> 4<!--Cell 4--> </td>
-            <td class="main"> 5<!--Cell 5--> </td>
+            <td id="main00" class="baby" onclick="clickyboy(0,0)"> <!--Cell 1--> </td>
+            <td id="main01" class="baby" onclick="clickyboy(0,1)"> <!--Cell 2--> </td>
+            <td id="main02" class="baby" onclick="clickyboy(0,2)"> <!--Cell 3--> </td>
+            <td id="main03" class="baby" onclick="clickyboy(0,3)"> <!--Cell 4--> </td>
+            <td id="main04" class="baby" onclick="clickyboy(0,4)"> <!--Cell 5--> </td>
         </tr>
         <tr id="row"> <!-- Row 2-->
-            <td class="main"> 6<!--Cell 6--> </td>
-            <td class="main"> 7<!--Cell 7--> </td>
-            <td class="main"> 8<!--Cell 8--> </td>
-            <td class="main"> 9<!--Cell 9--> </td>
-            <td class="main"> 10<!--Cell 10--> </td>            
+            <td id="main10" class="baby" onclick="clickyboy(1,0)"> <!--Cell 6--> </td>
+            <td id="main11" class="baby" onclick="clickyboy(1,1)"> <!--Cell 7--> </td>
+            <td id="main12" class="baby" onclick="clickyboy(1,2)"> <!--Cell 8--> </td>
+            <td id="main13" class="baby" onclick="clickyboy(1,3)"> <!--Cell 9--> </td>
+            <td id="main14" class="baby" onclick="clickyboy(1,4)"> <!--Cell 10--> </td>            
         </tr>
         <tr id="row"> <!-- Row 3-->
-            <td class="main"> 11<!--Cell 11--> </td>
-            <td class="main"> 12<!--Cell 12--> </td>
-            <td class="main"> 13<!--Cell 13--> </td>
-            <td class="main"> 14<!--Cell 14--> </td>
-            <td class="main"> 15<!--Cell 15--> </td>       
+            <td id="main20" class="baby" onclick="clickyboy(2,0)"> <!--Cell 11--> </td>
+            <td id="main21" class="baby" onclick="clickyboy(2,1)"> <!--Cell 12--> </td>
+            <td id="main22" class="baby" onclick="clickyboy(2,2)"> <!--Cell 13--> </td>
+            <td id="main23" class="baby" onclick="clickyboy(2,3)"> <!--Cell 14--> </td>
+            <td id="main24" class="baby" onclick="clickyboy(2,4)"> <!--Cell 15--> </td>       
         </tr>
         <tr id="row"> <!-- Row 4-->
-            <td class="main"> 16<!--Cell 16--> </td>
-            <td class="main"> 17<!--Cell 17--> </td>
-            <td class="main"> 18<!--Cell 18--> </td>
-            <td class="main"> 19<!--Cell 19--> </td>
-            <td class="main"> 20<!--Cell 20--> </td>
+            <td id="main30" class="baby" onclick="clickyboy(3,0)"> <!--Cell 16--> </td>
+            <td id="main31" class="baby" onclick="clickyboy(3,1)"> <!--Cell 17--> </td>
+            <td id="main32" class="baby" onclick="clickyboy(3,2)"> <!--Cell 18--> </td>
+            <td id="main33" class="baby" onclick="clickyboy(3,3)"> <!--Cell 19--> </td>
+            <td id="main34" class="baby" onclick="clickyboy(3,4)"> <!--Cell 20--> </td>
         </tr>
         <tr id="row"> <!-- Row 5-->
-            <td class="main"> 21<!--Cell 21--> </td>
-            <td class="main"> 22<!--Cell 22--> </td>
-            <td class="main"> 23<!--Cell 23--> </td>
-            <td class="main"> 24<!--Cell 24--> </td>
-            <td class="main"> 25<!--Cell 25--> </td>         
+            <td id="main40" class="baby" onclick="clickyboy(4,0)"> <!--Cell 21--> </td>
+            <td id="main41" class="baby" onclick="clickyboy(4,1)"> <!--Cell 22--> </td>
+            <td id="main42" class="baby" onclick="clickyboy(4,2)"> <!--Cell 23--> </td>
+            <td id="main43" class="baby" onclick="clickyboy(4,3)"> <!--Cell 24--> </td>
+            <td id="main44" class="blank" onclick="clickyboy(4,4)"> <!--Cell 25--> </td>         
         </tr>
     </table></div>
-    <div> <button class="try">Try Again</button> </div>
+ <!--   <div> <button class="try">Try Again</button> </div> -->
     </p>
+    <button onClick="window.location.reload();">Try Again</button>
+    <hr>
+    <footer><h4>Enjoy while you last. Reload if you wanna try Again</h4></footer>
     <script src="main.js"></script>
 </body>
 </html>
