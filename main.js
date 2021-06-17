@@ -1,5 +1,4 @@
-let cell = document.querySelectorAll('.main');
-
+// stuff begins here
 const btn = document.querySelector('button');
 
 let hex=["red","green","blue","orange","violet","yellow"]; //colors
