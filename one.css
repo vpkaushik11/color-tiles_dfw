@@ -64,3 +64,11 @@ h4{
     margin: 5px;
     border: solid black 3px;
 }
+.region{
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    border: solid black 3px;
+    text-align: center;
+}
